@@ -5,7 +5,7 @@
     <div class="row justify-content-center align-items-center">
         <div class="col-auto">
             <div class="card justify-content-center">
-                <img class="mx-auto d-block mt-2" src="{{ asset('img/panda.png') }}" height="125" width="125px">
+                <img class="mx-auto d-block mt-2" src="{{ asset('img/happy.png') }}" height="140" width="125px">
                 <h2 class="text-center">Registro Usuario</h2>
                 <form action="{{ route('registrar')}}" method="post" class="row mb-3 p-3">
                     @csrf
