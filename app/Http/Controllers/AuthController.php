@@ -15,20 +15,6 @@ class AuthController extends Controller
         return view('modules.login.index', compact('titulo_pagina'));
     }
 
-    public function registro(){
-        $titulo_pagina = 'Registro de usuario';
-        return view('modules.registro.index', compact('titulo_pagina'));
-    }
-
-    public function registrar(Request $request){
-        $item = new User();
-        $item->name = $request->name;
-        $item->email = $request->email;
-        $item->password = Hash::make($request->password);
-        $item->save();
-        return view('modules.login.index');
-    }
-
     public function logear(Request $request){
         $credenciales = [
             'email' => $request->email,

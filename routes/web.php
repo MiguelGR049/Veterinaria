@@ -5,8 +5,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::middleware("guest")->group(function () {
     Route::get('/', [AuthController::class, 'login'])->name('login');
-    Route::get('/registro', [AuthController::class, 'registro'])->name('registro');
-    Route::post('/registrar', [AuthController::class, 'registrar'])->name('registrar');
     Route::post('/logear', [AuthController::class, 'logear'])->name('logear');
 });
 

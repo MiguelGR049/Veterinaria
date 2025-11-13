@@ -18,9 +18,8 @@
                         <label for="password" class="form-label">Password</label>
                         <input type="password" class="form-control" id="password" name="password" required>
                     </div>
-                    <div class="d-flex justify-content-center">
+                    <div class="d-flex justify-content-center text-center">
                         <button type="submit" class="btn btn-success me-1"><i class="fa-solid fa-right-to-bracket"></i> Iniciar</button>
-                        <a href="{{route('registro')}}" class="btn btn-warning"><i class="fa-solid fa-chalkboard-user"></i> Registro</a>
                     </div>
                 </form>
             </div>
