@@ -7,7 +7,7 @@ body{
     height: 100vh;
 }
 
-.card{
+#card{
     color: rgb(0, 0, 0);
     width: 20rem;
     background-color: rgba(128, 194, 191, 0.45);
@@ -15,11 +15,15 @@ body{
 
 #tabla{
     color: rgb(0, 0, 0);
-    background-color: rgba(128, 128, 194, 0.45);
+    background-color: rgba(128, 194, 191, 0.45);
 }
 
 input{
     background-color: rgba(255, 255, 255, 0.45);
 }
 
+.navbar{
+    color: rgb(0, 0, 0);
+    background-color: rgba(128, 194, 191, 0.45);
+}
 

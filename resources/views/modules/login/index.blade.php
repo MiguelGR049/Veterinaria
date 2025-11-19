@@ -4,7 +4,7 @@
 <div class="container mt-5">
     <div class="row justify-content-center align-items-center">
         <div class="col-auto">
-            <div class="card justify-content-center">
+            <div class="card justify-content-center" id="card">
                 <img class="mx-auto d-block mt-2" src="{{ asset('img/HamtaroN.webp') }}" height="150" width="125px">
                 <h2 class="text-center">Iniciar Sesión</h2>
                 <form action="{{ route('logear')}}" method="post" class="mb-3 p-3">
